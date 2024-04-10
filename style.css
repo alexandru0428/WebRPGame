@@ -1,0 +1,67 @@
+:root{
+    --black : #09090b;
+    --white : #fafafa;
+}
+@keyframes slideFromTheTop{
+    from {
+        transform: translateY(-3000px);
+    }
+
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes slideFromTheBottom{
+    from {
+        transform: translateY(3000px);
+    }
+
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes slidefromLeft{
+    from{
+        transform: translateX(-3000px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes slidefromRight{
+    from{
+        transform: translateX(3000px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+body{
+    background: var(--black);
+    color: var(--white);
+    font-family: MedievalSharp;
+}
+button{
+    border: 1px solid var(--white);
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1em;
+    margin: 1em;
+    font-family: MedievalSharp;
+}
+button:hover{
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+input{
+    background-color: var(--black);
+    border: 1px solid var(--white);
+    font-family: MedievalSharp;
+    color: var(--white);
+    padding: 1em;
+    font-size: 1rem;
+
+}

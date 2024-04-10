@@ -1,0 +1,12 @@
+#nameSubmit{
+    animation-name: slidefromLeft;
+    animation-duration: 1s;
+    display: none;
+    
+}
+#greeting{
+    animation-name: slidefromRight;
+    animation-duration: 1s;
+    display: none;
+    
+}

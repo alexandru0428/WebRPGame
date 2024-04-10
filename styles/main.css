@@ -1,0 +1,33 @@
+main{
+    text-align: center;
+    margin-top: 20em;
+    
+}
+
+main #intro h1{
+    animation-name: slideFromTheTop;
+    animation-duration: 1s;
+}
+
+main #intro p{
+    animation-name: slidefromLeft;
+    animation-duration: 3s;
+}
+
+main #intro button{
+    border: 1px solid var(--white);
+    background-color: var(--black);
+    color: var(--white);
+    padding: 1em;
+    margin: 1em;
+    font-family: MedievalSharp;
+    animation-name: slidefromRight;
+    animation-duration: 5s;
+}
+main #intro button:hover{
+    background-color: var(--white);
+    color: var(--black);
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition-duration: 1s;
+}
