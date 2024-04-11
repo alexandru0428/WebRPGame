@@ -42,6 +42,14 @@ body{
     color: var(--white);
     font-family: MedievalSharp;
 }
+a{
+    color: var(--white);
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    transition-duration: 1s;
+}
 button{
     border: 1px solid var(--white);
     background-color: var(--black);
@@ -63,5 +71,11 @@ input{
     color: var(--white);
     padding: 1em;
     font-size: 1rem;
+}
 
+
+footer{
+    border-top: 0.1rem solid var(--white);
+    margin-top: 20em;
+    text-align: center;
 }

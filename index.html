@@ -16,26 +16,57 @@
 </head>
 <body>
     <header>
-        <h1>RPG Dungeon Game</h1>
+        <h1><a href="https://github.com/alexandru0428" target="_blank">RPG Dungeon Game</a></h1>
     </header>
 
     <main>
         <section id="intro">
-            <h1>Welcome to my game!</h1>
+            <h1 id="introHeader">Welcome to my game!</h1>
             <p>Are you ready to begin?</p>
             <button id="introBtn">Click here!</button>
         </section>
+
         <section id="nameSubmit">
             <h1>What is your name,adventurer?</h1>
             <input id="nameInput" type="text">
             <button id="nameBtn">Submit</button>
         </section>
+
         <section id="greeting">
             <h1 id="greetingHeader"></h1>
             <button id="greetingBtn">Next</button>
         </section>
+
+        <section id="rules">
+            <h1 id="rulesHeader">You will get a random encounter!</h1>
+            <p id="rulesParagraph">Either way, you will need to roll the dice and score higher than 3!</p>
+            <button id="rulesBtn">Next</button>
+        </section>
+
+        <section id="encounter">
+            <h1 id="encounterHeader"></h1>
+            <p>(You need to roll a value higher than 3)</p>
+            <button id="encounterBtn">Roll</button>
+        </section>
+
+        <section id="encounterResult">
+            <h1 id="encounterResultHeader">You have...</h1>
+            <p id="encounterResultParagraph">You rolled..</p>
+            <button id="exitBtn">Exit</button>
+        </section>
+
+        <section id="thanks">
+            <h1>Thank you for playing my short game!</h1>
+            <p>-Alexandru</p>
+        </section>
+        
     </main>
 
+    <footer>
+        <h2>Desktop is recommended for better experience</h2>
+        <p>Copyrighted &copy;2024 by Alexandru</p>
+        
+    </footer>
     <script src="script.js"></script>
     
 </body>

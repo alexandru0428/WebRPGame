@@ -10,3 +10,23 @@
     display: none;
     
 }
+#rules{
+    animation-name: slidefromLeft;
+    animation-duration: 1s;
+    display: none;
+}
+#encounter{
+    animation-name: slideFromTheBottom;
+    animation-duration: 1s;
+    display: none;
+}
+#encounterResult{
+    animation-name: slideFromTheTop;
+    animation-duration: 1s;
+    display: none;
+}
+#thanks{
+    animation-name: slidefromLeft;
+    animation-duration: 1s;
+    display: none;
+}
